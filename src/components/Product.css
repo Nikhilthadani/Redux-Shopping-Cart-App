@@ -1,8 +1,11 @@
 .products-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
 }
 button {
   margin-top: 25px;
@@ -17,7 +20,7 @@ button {
   width: 250px;
   height: 250px;
   display: flex;
-  padding-right: auto;
+  padding: 10px;
   flex-direction: column;
   align-items: center;
   justify-content: center;

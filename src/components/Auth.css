@@ -33,6 +33,7 @@ input {
 .login-btn {
   border: none;
   width: 80%;
+  padding: 10px;
 }
 .login-btn:hover {
   color: white;
