@@ -1,0 +1,40 @@
+.container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rebeccapurple;
+  align-items: center;
+  margin-top: 10%;
+}
+h1 {
+  padding: 30px;
+  color: white;
+  font-size: 50px;
+}
+label {
+  color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+.login-btn {
+  border: none;
+  width: 80%;
+}
+.login-btn:hover {
+  color: white;
+  background: rgb(18, 20, 26);
+}
