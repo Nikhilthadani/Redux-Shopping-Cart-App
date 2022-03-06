@@ -9,6 +9,7 @@ const Auth = () => {
     e.preventDefault();
     dispatch(authActions.login());
   };
+
   return (
     <div className='container'>
       <h1>Login</h1>{' '}
