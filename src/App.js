@@ -6,8 +6,8 @@ import { useSelector } from 'react-redux';
 
 function App() {
   const isLoggedin = useSelector((state) => state.auth.isLoggedin);
-  const cartItems = useSelector((state) => state.cart.itemsList);
-  console.log(cartItems);
+  // const cartItems = useSelector((state) => state.cart.itemsList);
+  // coole.log(cartItems);
 
   return (
     <div>
