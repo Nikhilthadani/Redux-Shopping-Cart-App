@@ -10,3 +10,11 @@
   margin-top: 1rem;
   font-size: 20px;
 }
+.logout-btn {
+  padding: 10px;
+  background: orangered;
+  border: none;
+}
+.logout-btn:hover {
+  background: rgb(0, 6, 59);
+}
