@@ -12,7 +12,10 @@ const cartSlice = createSlice({
   reducers: {
     replaceData(state, action) {
       state.totalQuantity = action.payload.totalQuantity;
-      state.itemsList = action.payload.itemsList;
+      // to prevent a bug when after delete everything from firebase there is no item in cart
+      // just initiliase the itemList as [] - empty array
+      // payload from firebase look like this in this scenario: {changed: true, showCart: true, totalQuantity: 0}
+      state.itemsList = action.payload.itemsList ?? []; 
     },
     addToCart(state, action) {
       state.changed = true;
